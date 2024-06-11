@@ -5,6 +5,6 @@ print(hello_world())
 
 def hello_world_n(N):
 	a = "Hello World! "
-	return (a*N)
+	return (a*N).strip()
 
 print(hello_world_n(5))
